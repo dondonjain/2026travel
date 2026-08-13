@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2026 夏遊岡山・四國・山陰 7日自駕之旅</title>
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #2b5c8f;
+            --primary-dark: #1e4267;
+            --accent: #e06d53;
+            --bg-light: #f8f9fa;
+            --card-bg: #ffffff;
+            --text-main: #2c3e50;
+            --text-muted: #6c757d;
+            --border: #e9ecef;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Noto Sans TC', sans-serif;
+            background-color: var(--bg-light);
+            color: var(--text-main);
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            color: white;
+            padding: 2.5rem 1.5rem;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+        }
+
+        header p {
+            font-size: 1rem;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1.5rem;
+        }
+
+        .map-section {
+            background: var(--card-bg);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            margin-bottom: 2rem;
+        }
+
+        #map {
+            height: 480px;
+            width: 100%;
+        }
+
+        .filter-section {
+            background: var(--card-bg);
+            padding: 1.25rem;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+            margin-bottom: 1.5rem;
+        }
+
+        .filter-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-bottom: 0.75rem;
+            align-items: center;
+        }
+
+        .filter-label {
+            font-weight: 700;
+            margin-right: 0.5rem;
+            min-width: 60px;
+            color: var(--primary);
+        }
+
+        .btn {
+            background: #eef2f7;
+            border: 1px solid var(--border);
+            padding: 0.4rem 0.9rem;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            font-family: inherit;
+            transition: all 0.2s ease;
+            color: var(--text-main);
+        }
+
+        .btn:hover {
+            background: #e2e8f0;
+        }
+
+        .btn.active {
+            background: var(--primary);
+            color: white;
+            border-color: var(--primary);
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 0.25rem 0.6rem;
+            border-radius: 12px;
+            font-size: 0.8rem;
+            font-weight: 500;
+            color: white;
+        }
+
+        .badge-attraction { background-color: #3b82f6; }
+        .badge-food { background-color: #f97316; }
+        .badge-hotel { background-color: #8b5cf6; }
+        .badge-transport { background-color: #06b6d4; }
+        .badge-parking { background-color: #64748b; }
+        .badge-shopping { background-color: #10b981; }
+
+        .itinerary-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+            gap: 1.25rem;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 1.25rem;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.04);
+            border: 1px solid var(--border);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+        }
+
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 0.75rem;
+        }
+
+        .card-day {
+            font-size: 0.85rem;
+            font-weight: 700;
+            color: var(--primary);
+            background: #eef4fb;
+            padding: 0.2rem 0.5rem;
+            border-radius: 6px;
+        }
+
+        .card-title {
+            font-size: 1.15rem;
+            font-weight: 700;
+            margin-bottom: 0.25rem;
+        }
+
+        .card-sub {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-bottom: 0.5rem;
+        }
+
+        .card-body {
+            font-size: 0.9rem;
+            color: #4a5568;
+            margin-bottom: 1rem;
+        }
+
+        .card-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-top: 1px solid var(--border);
+            padding-top: 0.75rem;
+            margin-top: auto;
+        }
+
+        .nav-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.3rem;
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.85rem;
+            transition: color 0.2s;
+        }
+
+        .nav-link:hover {
+            color: var(--accent);
+            text-decoration: underline;
+        }
+
+        .tips-box {
+            background: #fff8f6;
+            border-left: 4px solid var(--accent);
+            padding: 1.25rem;
+            border-radius: 0 12px 12px 0;
+            margin-top: 2rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+        }
+
+        .tips-box h3 {
+            color: var(--accent);
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .tips-box ul {
+            padding-left: 1.2rem;
+            font-size: 0.9rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            margin-top: 3rem;
+            border-top: 1px solid var(--border);
+        }
+
+        @media (max-width: 768px) {
+            header h1 { font-size: 1.5rem; }
+            #map { height: 350px; }
+            .itinerary-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>2026 夏遊岡山・四國・山陰 7日自駕之旅</h1>
+        <p>岡山・倉敷・尾道・廣島・宮島・松江・出雲・鳥取自駕探索地圖指南</p>
+    </header>
+
+    <div class="container">
+        
+        <!-- 地圖區域 -->
+        <div class="map-section">
+            <div id="map"></div>
+        </div>
+
+        <!-- 篩選器 -->
+        <div class="filter-section">
+            <div class="filter-group">
+                <span class="filter-label">日期：</span>
+                <button class="btn active" onclick="filterDay('all')">全部天數</button>
+                <button class="btn" onclick="filterDay('Day 1')">Day 1 (8/14)</button>
+                <button class="btn" onclick="filterDay('Day 2')">Day 2 (8/15)</button>
+                <button class="btn" onclick="filterDay('Day 3')">Day 3 (8/16)</button>
+                <button class="btn" onclick="filterDay('Day 4')">Day 4 (8/17)</button>
+                <button class="btn" onclick="filterDay('Day 5')">Day 5 (8/18)</button>
+                <button class="btn" onclick="filterDay('Day 6')">Day 6 (8/19)</button>
+                <button class="btn" onclick="filterDay('Day 7')">Day 7 (8/20)</button>
+            </div>
+            <div class="filter-group">
+                <span class="filter-label">類別：</span>
+                <button class="btn active" onclick="filterCategory('all')">全部分類</button>
+                <button class="btn" onclick="filterCategory('景點')">🏯 景點</button>
+                <button class="btn" onclick="filterCategory('美食')">🍜 美食</button>
+                <button class="btn" onclick="filterCategory('住宿')">🏨 住宿</button>
+                <button class="btn" onclick="filterCategory('停車')">🅿️ 停車</button>
+                <button class="btn" onclick="filterCategory('交通')">✈️ 交通</button>
+                <button class="btn" onclick="filterCategory('購物')">🛍️ 購物</button>
+            </div>
+        </div>
+
+        <!-- 行程卡片列表 -->
+        <div class="itinerary-grid" id="itineraryGrid"></div>
+
+        <!-- 行程貼心提醒 -->
+        <div class="tips-box">
+            <h3>🚗 行程關鍵提醒與自駕小撇步</h3>
+            <ul>
+                <li><b>8/15 (金刀比羅宮)</b>：建議上午 09:00 前抵達爬階梯（共785階），天氣較不炎熱。下午順遊倉敷美觀地區。</li>
+                <li><b>8/16 (尾道至廣島)</b>：早起逛千光寺與尾道老街，下午直奔廣島。皮克敏活動點多集中於廣島本通商店街（PARCO周邊）。</li>
+                <li><b>8/17 (移動日與宮島潮汐)</b>：嚴島神社安排在上午造訪（大潮期間可看漂浮鳥居，乾潮時可直接走近鳥居）。之後北上經高速公路至松江城，建議雙司機輪替開車。皮克敏專區（宮島SA）平日營業至 18:00，建議 16:30 前抵達。</li>
+                <li><b>8/19 (山陰迴歸)</b>：境港海鮮市場中午享用海鮮，飯後開車至鳥取砂丘（約1小時），行經山陽/鳥取自動車道免費段返還岡山。</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>2026 夏遊岡山・四國・山陰 旅遊地圖 | 點擊卡片連結可直接開啟 Google 地圖進行導航</p>
+    </footer>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script>
+        const locations = [
+            // Day 1
+            { day: "Day 1", title: "桃園國際機場", jp: "Taiwan Taoyuan International Airport", cat: "交通", lat: 25.0797, lng: 121.2342, note: "11:10 虎航起飛" },
+            { day: "Day 1", title: "岡山桃太郎機場", jp: "Okayama Airport", cat: "交通", lat: 34.7570, lng: 133.8553, note: "14:35 抵達岡山，搭機場巴士前往岡山車站" },
+            { day: "Day 1", title: "岡山車站", jp: "Okayama Station", cat: "交通", lat: 34.6664, lng: 133.9186, note: "交通與周邊商圈樞紐" },
+            { day: "Day 1", title: "AEON MALL 岡山", jp: "AEON MALL Okayama", cat: "購物", lat: 34.6622, lng: 133.9175, note: "適合採買日常食品、飲料、零食與逛街" },
+            { day: "Day 1", title: "麵屋匠 岡山站店", jp: "麵屋 匠 岡山駅", cat: "美食", lat: 34.6664, lng: 133.9186, note: "岡山車站內好吃拉麵與餃子" },
+            { day: "Day 1", title: "東橫INN 岡山站西口右", jp: "Toyoko Inn Okayama-eki Nishi-guchi Migi", cat: "住宿", lat: 34.6680, lng: 133.9150, note: "Day 1 住宿" },
+
+            // Day 2
+            { day: "Day 2", title: "瀨戶大橋", jp: "Seto Ohashi Bridge", cat: "景點", lat: 34.3994, lng: 133.8080, note: "自駕行經瀨戶內海跨海大橋" },
+            { day: "Day 2", title: "琴平町營停車場", jp: "琴平町営駐車場", cat: "停車", lat: 34.1932, lng: 133.8204, note: "導航至琴平町営駐車場或こんぴら参道駐車場" },
+            { day: "Day 2", title: "金刀比羅宮", jp: "Kotohira-gu", cat: "景點", lat: 34.1932, lng: 133.8204, note: "參拜785階石階、逛表參道 (預留 2-3 小時)" },
+            { day: "Day 2", title: "讚岐烏龍麵 (琴平町)", jp: "讃岐うどん 琴平", cat: "美食", lat: 34.1900, lng: 133.8180, note: "金刀比羅宮表參道周邊午餐推薦" },
+            { day: "Day 2", title: "倉敷市中央停車場", jp: "倉敷市中央駐車場", cat: "停車", lat: 34.5940, lng: 133.7722, note: "倉敷美觀地區建議停車場" },
+            { day: "Day 2", title: "倉敷美觀地區", jp: "Kurashiki Bikan Historical Quarter", cat: "景點", lat: 34.5959, lng: 133.7722, note: "下午漫步古色古香運河老街" },
+            { day: "Day 2", title: "超級酒店 Inn 倉敷水島", jp: "Super Hotel Inn Kurashiki Mizushima", cat: "住宿", lat: 34.5320, lng: 133.7485, note: "Day 2 住宿 (含天然溫泉)" },
+
+            // Day 3
+            { day: "Day 3", title: "尾道市政廳 (頂樓展望台)", jp: "Onomichi City Hall", cat: "景點", lat: 34.4087, lng: 133.2050, note: "免費進入頂樓360度展望露台" },
+            { day: "Day 3", title: "千光寺公園 / 千光寺", jp: "Senkoji Temple Onomichi", cat: "景點", lat: 34.4111, lng: 133.1970, note: "尾道經典景點，眺望港口美景" },
+            { day: "Day 3", title: "尾道拉麵 谷 (たに)", jp: "Onomichi Ramen Tani", cat: "美食", lat: 34.4053, lng: 133.1930, note: "JR尾道站1樓極方便，清爽甘甜湯頭" },
+            { day: "Day 3", title: "尾道拉麵 喰海", jp: "Onomichi Ramen Kuukai", cat: "美食", lat: 34.4053, lng: 133.1945, note: "海岸線旁，知名鹽味檸檬拉麵" },
+            { day: "Day 3", title: "廣島和平紀念公園 / 原爆圓頂館", jp: "Hiroshima Peace Memorial Park", cat: "景點", lat: 34.3955, lng: 132.4536, note: "廣島歷史地標公園 (導航：平和公園駐車場)" },
+            { day: "Day 3", title: "はぜや (Hazeya 廣島燒)", jp: "Hazeya Hiroshima", cat: "美食", lat: 34.3910, lng: 132.4550, note: "和平公園步行7分鐘在地隱藏版廣島燒名店" },
+            { day: "Day 3", title: "廣島本通商店街 (PARCO)", jp: "Hiroshima Hondori Shotengai", cat: "景點", lat: 34.3920, lng: 132.4590, note: "廣島熱鬧商店街，皮克敏活動點多集中於此" },
+            { day: "Day 3", title: "廣島超級酒店", jp: "Super Hotel Hiroshima", cat: "住宿", lat: 34.3892, lng: 132.4690, note: "Day 3 住宿" },
+
+            // Day 4
+            { day: "Day 4", title: "宮島口停車場", jp: "Miyajimaguchi Parking Lot", cat: "停車", lat: 34.3120, lng: 132.3020, note: "搭乘渡輪前往宮島之停車場" },
+            { day: "Day 4", title: "嚴島神社 / 海上大鳥居", jp: "Itsukushima Shrine", cat: "景點", lat: 34.2960, lng: 132.3198, note: "清晨遊客少，漲潮看漂浮鳥居、乾潮可走近鳥居" },
+            { day: "Day 4", title: "皮克敏露臺 宮島SA (下行)", jp: "Miyajima SA Downbound", cat: "景點", lat: 34.3315, lng: 132.3020, note: "高速公路休息站皮克敏公園專區" },
+            { day: "Day 4", title: "松江城", jp: "Matsue Castle", cat: "景點", lat: 35.4753, lng: 133.0506, note: "日本國寶12現存天守之一" },
+            { day: "Day 4", title: "松江 Universal Hotel", jp: "Matsue Universal Hotel", cat: "住宿", lat: 35.4637, lng: 133.0638, note: "Day 4 & Day 5 住宿 (兩連泊)" },
+
+            // Day 5
+            { day: "Day 5", title: "松江花鳥園", jp: "Matsue Vogel Park", cat: "景點", lat: 35.4800, lng: 132.9680, note: "一畑電車沿線溫室花卉與鳥類主題公園" },
+            { day: "Day 5", title: "出雲大社神門通商店街", jp: "Shinmon Dori Izumo", cat: "美食", lat: 35.3980, lng: 132.6855, note: "神門通商店街午餐、知名出雲割子蕎麥麵" },
+            { day: "Day 5", title: "出雲大社", jp: "Izumo Taisha", cat: "景點", lat: 35.4020, lng: 132.6855, note: "日本結緣名神社 (使用出雲大社免費駐車場)" },
+            { day: "Day 5", title: "稻佐之濱", jp: "Inasa Beach", cat: "景點", lat: 35.3970, lng: 132.6710, note: "出雲大社附近神聖海灘，傍晚欣賞絕美日落" },
+
+            // Day 6
+            { day: "Day 6", title: "江島大橋", jp: "Eshima Ohashi Bridge", cat: "景點", lat: 35.5193, lng: 133.1818, note: "宛如雲霄飛車般陡峭的跨海大橋" },
+            { day: "Day 6", title: "境港海鮮市場", jp: "Sakaiminato Seafood Market", cat: "美食", lat: 35.5475, lng: 133.2305, note: "高CP值海鮮午餐" },
+            { day: "Day 6", title: "水木茂大道", jp: "Mizuki Shigeru Road", cat: "景點", lat: 35.5450, lng: 133.2300, note: "鬼太郎作者故鄉，170多尊妖怪青銅像快閃打卡" },
+            { day: "Day 6", title: "鳥取砂丘", jp: "Tottori Sand Dunes", cat: "景點", lat: 35.5390, lng: 134.2325, note: "日本最大天然海岸砂丘壯麗景緻" },
+            { day: "Day 6", title: "蒜山高原服務區 (SA)", jp: "Hiruzen Kogen SA", cat: "景點", lat: 35.3080, lng: 133.6840, note: "推薦蒜山濃郁牛奶霜淇淋/起司蛋糕" },
+            { day: "Day 6", title: "東橫INN 岡山站東口", jp: "Toyoko Inn Okayama-eki Higashi-guchi", cat: "住宿", lat: 34.6675, lng: 133.9210, note: "Day 6 住宿 (岡山還車)" },
+
+            // Day 7
+            { day: "Day 7", title: "岡山後樂園", jp: "Okayama Korakuen Garden", cat: "景點", lat: 34.6670, lng: 133.9360, note: "日本三大名園之一 (08:00前往)" },
+            { day: "Day 7", title: "岡山城", jp: "Okayama Castle", cat: "景點", lat: 34.6655, lng: 133.9360, note: "烏城 (10:00參觀)" }
+        ];
+
+        // 地圖初始化
+        const map = L.map('map').setView([34.8, 133.2], 8);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 18,
+            attribution: '© OpenStreetMap'
+        }).addTo(map);
+
+        let markers = [];
+        let currentDayFilter = 'all';
+        let currentCatFilter = 'all';
+
+        function getBadgeClass(cat) {
+            switch(cat) {
+                case '景點': return 'badge-attraction';
+                case '美食': return 'badge-food';
+                case '住宿': return 'badge-hotel';
+                case '交通': return 'badge-transport';
+                case '停車': return 'badge-parking';
+                case '購物': return 'badge-shopping';
+                default: return 'badge-attraction';
+            }
+        }
+
+        function renderMapAndGrid() {
+            markers.forEach(m => map.removeLayer(m));
+            markers = [];
+
+            const grid = document.getElementById('itineraryGrid');
+            grid.innerHTML = '';
+
+            const filtered = locations.filter(loc => {
+                const dayMatch = currentDayFilter === 'all' || loc.day === currentDayFilter;
+                const catMatch = currentCatFilter === 'all' || loc.cat === currentCatFilter;
+                return dayMatch && catMatch;
+            });
+
+            const bounds = [];
+
+            filtered.forEach(loc => {
+                if (loc.lat && loc.lng) {
+                    const marker = L.marker([loc.lat, loc.lng]).addTo(map);
+                    const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(loc.jp || loc.title)}`;
+                    
+                    marker.bindPopup(`
+                        <div style="font-family: sans-serif;">
+                            <span class="badge ${getBadgeClass(loc.cat)}">${loc.cat}</span>
+                            <h4 style="margin: 5px 0;">${loc.title}</h4>
+                            <p style="font-size: 12px; color: #666; margin-bottom: 5px;">${loc.note}</p>
+                            <a href="${mapsUrl}" target="_blank" style="font-size: 12px; color: #2b5c8f;">開啟 Google 地圖 ➔</a>
+                        </div>
+                    `);
+
+                    markers.push(marker);
+                    if (loc.lat > 30) bounds.push([loc.lat, loc.lng]);
+                }
+
+                const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(loc.jp || loc.title)}`;
+                const card = document.createElement('div');
+                card.className = 'card';
+                card.innerHTML = `
+                    <div>
+                        <div class="card-header">
+                            <span class="card-day">${loc.day}</span>
+                            <span class="badge ${getBadgeClass(loc.cat)}">${loc.cat}</span>
+                        </div>
+                        <div class="card-title">${loc.title}</div>
+                        <div class="card-sub">${loc.jp}</div>
+                        <div class="card-body">${loc.note}</div>
+                    </div>
+                    <div class="card-footer">
+                        <a href="${mapsUrl}" target="_blank" class="nav-link">
+                            📍 Google 地圖導航
+                        </a>
+                    </div>
+                `;
+                grid.appendChild(card);
+            });
+
+            if (bounds.length > 0) {
+                map.fitBounds(bounds, { padding: [30, 30] });
+            }
+        }
+
+        function filterDay(day) {
+            currentDayFilter = day;
+            const buttons = document.querySelectorAll('.filter-group:nth-child(1) .btn');
+            buttons.forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+            renderMapAndGrid();
+        }
+
+        function filterCategory(cat) {
+            currentCatFilter = cat;
+            const buttons = document.querySelectorAll('.filter-group:nth-child(2) .btn');
+            buttons.forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+            renderMapAndGrid();
+        }
+
+        renderMapAndGrid();
+    </script>
+</body>
+</html>
