@@ -1,0 +1,700 @@
+[
+  {
+    "candidateId": "cand-visit-1",
+    "sourceIndex": 462,
+    "startTime": "2026-08-14T17:03:52.000+09:00",
+    "endTime": "2026-08-14T18:33:20.294+09:00",
+    "startTimestamp": 1786694632000,
+    "endTimestamp": 1786700000294,
+    "durationSec": 5368,
+    "durationMinutes": 89,
+    "coordinate": [
+      133.917733,
+      34.666121
+    ],
+    "placeID": "ChIJ04njPUwGVDURV885IqoD16I",
+    "hierarchyLevel": 0,
+    "probability": 0.651146,
+    "subVenues": [],
+    "anomalyFlags": [
+      "NONE"
+    ],
+    "placeIdentityId": "place-1"
+  },
+  {
+    "candidateId": "cand-visit-2",
+    "sourceIndex": 464,
+    "startTime": "2026-08-14T18:37:38.055+09:00",
+    "endTime": "2026-08-15T09:10:25.199+09:00",
+    "startTimestamp": 1786700258055,
+    "endTimestamp": 1786752625199,
+    "durationSec": 52367,
+    "durationMinutes": 873,
+    "coordinate": [
+      133.917628,
+      34.661996
+    ],
+    "placeID": "ChIJkyqZELMHVDUREhwbsCvO-I0",
+    "hierarchyLevel": 0,
+    "probability": 0.804168,
+    "subVenues": [
+      {
+        "sourceIndex": 465,
+        "hierarchyLevel": 1,
+        "startTime": "2026-08-14T18:44:07.244+09:00",
+        "endTime": "2026-08-14T19:05:08.857+09:00",
+        "durationMinutes": 21,
+        "coordinate": [
+          133.918265,
+          34.661812
+        ],
+        "placeID": "ChIJGfLII7MHVDURLji-tzvVC_0",
+        "probability": 0.804168,
+        "flattenReason": "HIERARCHY_LEVEL_1_NESTED_IN_LEVEL_0"
+      }
+    ],
+    "anomalyFlags": [
+      "FLATTENED_1_SUB_VENUES"
+    ],
+    "placeIdentityId": "place-2"
+  },
+  {
+    "candidateId": "cand-visit-3",
+    "sourceIndex": 467,
+    "startTime": "2026-08-15T09:18:23.000+09:00",
+    "endTime": "2026-08-15T09:44:32.324+09:00",
+    "startTimestamp": 1786753103000,
+    "endTimestamp": 1786754672324,
+    "durationSec": 1569,
+    "durationMinutes": 26,
+    "coordinate": [
+      133.917733,
+      34.666121
+    ],
+    "placeID": "ChIJ04njPUwGVDURV885IqoD16I",
+    "hierarchyLevel": 0,
+    "probability": 0.598653,
+    "subVenues": [],
+    "anomalyFlags": [
+      "NONE"
+    ],
+    "placeIdentityId": "place-1"
+  },
+  {
+    "candidateId": "cand-visit-4",
+    "sourceIndex": 469,
+    "startTime": "2026-08-15T11:06:08.206+09:00",
+    "endTime": "2026-08-15T14:16:23.022+09:00",
+    "startTimestamp": 1786759568206,
+    "endTimestamp": 1786770983022,
+    "durationSec": 11415,
+    "durationMinutes": 190,
+    "coordinate": [
+      133.817855,
+      34.188691
+    ],
+    "placeID": "ChIJAQAwy1vWUzURtVDXyJ_ao4M",
+    "hierarchyLevel": 0,
+    "probability": 0.44511,
+    "subVenues": [],
+    "anomalyFlags": [
+      "NONE"
+    ],
+    "placeIdentityId": "place-3"
+  },
+  {
+    "candidateId": "cand-visit-5",
+    "sourceIndex": 471,
+    "startTime": "2026-08-15T16:00:51.402+09:00",
+    "endTime": "2026-08-15T16:14:14.102+09:00",
+    "startTimestamp": 1786777251402,
+    "endTimestamp": 1786778054102,
+    "durationSec": 803,
+    "durationMinutes": 13,
+    "coordinate": [
+      133.743184,
+      34.539073
+    ],
+    "placeID": "ChIJ8YD3pbBZUTURCYdICq4PR80",
+    "hierarchyLevel": 0,
+    "probability": 0.708454,
+    "subVenues": [],
+    "anomalyFlags": [
+      "NONE"
+    ],
+    "placeIdentityId": "place-4"
+  },
+  {
+    "candidateId": "cand-visit-6",
+    "sourceIndex": 473,
+    "startTime": "2026-08-15T16:57:40.296+09:00",
+    "endTime": "2026-08-15T19:24:18.662+09:00",
+    "startTimestamp": 1786780660296,
+    "endTimestamp": 1786789458662,
+    "durationSec": 8798,
+    "durationMinutes": 147,
+    "coordinate": [
+      133.761495,
+      34.603587
+    ],
+    "placeID": "ChIJc7EQr1xWUTURZ0IX8YyTBjQ",
+    "hierarchyLevel": 0,
+    "probability": 0.726636,
+    "subVenues": [],
+    "anomalyFlags": [
+      "NONE"
+    ],
+    "placeIdentityId": "place-5"
+  },
+  {
+    "candidateId": "cand-visit-7",
+    "sourceIndex": 475,
+    "startTime": "2026-08-15T20:33:28.000+09:00",
+    "endTime": "2026-08-16T08:25:46.535+09:00",
+    "startTimestamp": 1786793608000,
+    "endTimestamp": 1786836346535,
+    "durationSec": 42739,
+    "durationMinutes": 712,
+    "coordinate": [
+      133.768964,
+      34.596808
+    ],
+    "placeID": "ChIJ_-nOTkZWUTURLnI3NjP-BOA",
+    "hierarchyLevel": 0,
+    "probability": 0.504855,
+    "subVenues": [],
+    "anomalyFlags": [
+      "NONE"
+    ],
+    "placeIdentityId": "place-6"
+  },
+  {
+    "candidateId": "cand-visit-8",
+    "sourceIndex": 476,
+    "startTime": "2026-08-16T08:25:46.535+09:00",
+    "endTime": "2026-08-16T11:45:01.223+09:00",
+    "startTimestamp": 1786836346535,
+    "endTimestamp": 1786848301223,
+    "durationSec": 11955,
+    "durationMinutes": 199,
+    "coordinate": [
+      133.743184,
+      34.539073
+    ],
+    "placeID": "ChIJ8YD3pbBZUTURCYdICq4PR80",
+    "hierarchyLevel": 0,
+    "probability": 0.818367,
+    "subVenues": [],
+    "anomalyFlags": [
+      "NONE"
+    ],
+    "placeIdentityId": "place-4"
+  },
+  {
+    "candidateId": "cand-visit-9",
+    "sourceIndex": 478,
+    "startTime": "2026-08-16T12:18:08.304+09:00",
+    "endTime": "2026-08-16T13:02:10.363+09:00",
+    "startTimestamp": 1786850288304,
+    "endTimestamp": 1786852930363,
+    "durationSec": 2642,
+    "durationMinutes": 44,
+    "coordinate": [
+      133.51581,
+      34.498857
+    ],
+    "placeID": "ChIJJahEpPNqUTUR_fzAphTLmy4",
+    "hierarchyLevel": 0,
+    "probability": 0.950484,
+    "subVenues": [],
+    "anomalyFlags": [
+      "NONE"
+    ],
+    "placeIdentityId": "place-7"
+  },
+  {
+    "candidateId": "cand-visit-10",
+    "sourceIndex": 480,
+    "startTime": "2026-08-16T14:14:05.135+09:00",
+    "endTime": "2026-08-16T15:24:22.831+09:00",
+    "startTimestamp": 1786857245135,
+    "endTimestamp": 1786861462831,
+    "durationSec": 4218,
+    "durationMinutes": 70,
+    "coordinate": [
+      133.203953,
+      34.40882
+    ],
+    "placeID": "ChIJnzHMp4sBUTURp-WnWcepKx8",
+    "hierarchyLevel": 0,
+    "probability": 0.49866,
+    "subVenues": [],
+    "anomalyFlags": [
+      "NONE"
+    ],
+    "placeIdentityId": "place-8"
+  },
+  {
+    "candidateId": "cand-visit-11",
+    "sourceIndex": 482,
+    "startTime": "2026-08-16T17:30:40.096+09:00",
+    "endTime": "2026-08-16T17:47:53.000+09:00",
+    "startTimestamp": 1786869040096,
+    "endTimestamp": 1786870073000,
+    "durationSec": 1033,
+    "durationMinutes": 17,
+    "coordinate": [
+      132.454985,
+      34.388138
+    ],
+    "placeID": "ChIJ6-d1XzajWjURVa9cnIMorvw",
+    "hierarchyLevel": 0,
+    "probability": 0.436223,
+    "subVenues": [],
+    "anomalyFlags": [
+      "NONE"
+    ],
+    "placeIdentityId": "place-9"
+  },
+  {
+    "candidateId": "cand-visit-12",
+    "sourceIndex": 483,
+    "startTime": "2026-08-16T17:47:53.000+09:00",
+    "endTime": "2026-08-16T18:12:17.288+09:00",
+    "startTimestamp": 1786870073000,
+    "endTimestamp": 1786871537288,
+    "durationSec": 1464,
+    "durationMinutes": 24,
+    "coordinate": [
+      132.452201,
+      34.392687
+    ],
+    "placeID": "ChIJgzAzVG2iWjURZRZ1udXOKeE",
+    "hierarchyLevel": 0,
+    "probability": 0.948918,
+    "subVenues": [],
+    "anomalyFlags": [
+      "NONE"
+    ],
+    "placeIdentityId": "place-10"
+  },
+  {
+    "candidateId": "cand-visit-13",
+    "sourceIndex": 485,
+    "startTime": "2026-08-16T18:16:02.229+09:00",
+    "endTime": "2026-08-17T08:33:13.212+09:00",
+    "startTimestamp": 1786871762229,
+    "endTimestamp": 1786923193212,
+    "durationSec": 51431,
+    "durationMinutes": 857,
+    "coordinate": [
+      132.465982,
+      34.388284
+    ],
+    "placeID": "ChIJUTnlwwSiWjURWMAU_AA1Do4",
+    "hierarchyLevel": 0,
+    "probability": 0.763898,
+    "subVenues": [],
+    "anomalyFlags": [
+      "NONE"
+    ],
+    "placeIdentityId": "place-11"
+  },
+  {
+    "candidateId": "cand-visit-14",
+    "sourceIndex": 489,
+    "startTime": "2026-08-17T11:49:06.218+09:00",
+    "endTime": "2026-08-17T12:05:24.924+09:00",
+    "startTimestamp": 1786934946218,
+    "endTimestamp": 1786935924924,
+    "durationSec": 979,
+    "durationMinutes": 16,
+    "coordinate": [
+      132.580608,
+      34.582064
+    ],
+    "placeID": "ChIJPzXH0yJ_UDURm0oSkAtYaBY",
+    "hierarchyLevel": 0,
+    "probability": 0.952992,
+    "subVenues": [],
+    "anomalyFlags": [
+      "NONE"
+    ],
+    "placeIdentityId": "place-12"
+  },
+  {
+    "candidateId": "cand-visit-15",
+    "sourceIndex": 491,
+    "startTime": "2026-08-17T12:20:04.177+09:00",
+    "endTime": "2026-08-17T13:34:14.238+09:00",
+    "startTimestamp": 1786936804177,
+    "endTimestamp": 1786941254238,
+    "durationSec": 4450,
+    "durationMinutes": 74,
+    "coordinate": [
+      132.673833,
+      34.647823
+    ],
+    "placeID": "ChIJbzSmuM6HUDURWu-g9Eheq48",
+    "hierarchyLevel": 0,
+    "probability": 0.730762,
+    "subVenues": [
+      {
+        "sourceIndex": 492,
+        "hierarchyLevel": 1,
+        "startTime": "2026-08-17T12:51:47.343+09:00",
+        "endTime": "2026-08-17T13:33:16.277+09:00",
+        "durationMinutes": 41,
+        "coordinate": [
+          132.674149,
+          34.648682
+        ],
+        "placeID": "ChIJKdzUEVyGUDURCr6XKJM4RYA",
+        "probability": 0.730762,
+        "flattenReason": "HIERARCHY_LEVEL_1_NESTED_IN_LEVEL_0"
+      }
+    ],
+    "anomalyFlags": [
+      "FLATTENED_1_SUB_VENUES"
+    ],
+    "placeIdentityId": "place-13"
+  },
+  {
+    "candidateId": "cand-visit-16",
+    "sourceIndex": 494,
+    "startTime": "2026-08-17T13:34:32.236+09:00",
+    "endTime": "2026-08-17T13:51:38.770+09:00",
+    "startTimestamp": 1786941272236,
+    "endTimestamp": 1786942298770,
+    "durationSec": 1027,
+    "durationMinutes": 17,
+    "coordinate": [
+      132.676746,
+      34.650681
+    ],
+    "placeID": "ChIJ1bRUaV2GUDURogtAl22ARTs",
+    "hierarchyLevel": 0,
+    "probability": 0.78778,
+    "subVenues": [],
+    "anomalyFlags": [
+      "NONE"
+    ],
+    "placeIdentityId": "place-14"
+  },
+  {
+    "candidateId": "cand-visit-17",
+    "sourceIndex": 496,
+    "startTime": "2026-08-17T14:54:28.277+09:00",
+    "endTime": "2026-08-17T15:24:36.182+09:00",
+    "startTimestamp": 1786946068277,
+    "endTimestamp": 1786947876182,
+    "durationSec": 1808,
+    "durationMinutes": 30,
+    "coordinate": [
+      132.830135,
+      35.166989
+    ],
+    "placeID": "ChIJ3QhqSTZKVzURNMTpVHlI0vg",
+    "hierarchyLevel": 0,
+    "probability": 0.942402,
+    "subVenues": [
+      {
+        "sourceIndex": 497,
+        "hierarchyLevel": 1,
+        "startTime": "2026-08-17T14:54:28.277+09:00",
+        "endTime": "2026-08-17T15:22:55.232+09:00",
+        "durationMinutes": 28,
+        "coordinate": [
+          132.830455,
+          35.166957
+        ],
+        "placeID": "ChIJ3QhqSTZKVzURLH5aMl64vG8",
+        "probability": 0.942402,
+        "flattenReason": "SAME_OR_NEAR_TIMESTAMP_CLASH_0S"
+      }
+    ],
+    "anomalyFlags": [
+      "FLATTENED_1_SUB_VENUES"
+    ],
+    "placeIdentityId": "place-15"
+  },
+  {
+    "candidateId": "cand-visit-18",
+    "sourceIndex": 499,
+    "startTime": "2026-08-17T16:19:39.258+09:00",
+    "endTime": "2026-08-17T18:10:11.999+09:00",
+    "startTimestamp": 1786951179258,
+    "endTimestamp": 1786957811999,
+    "durationSec": 6633,
+    "durationMinutes": 111,
+    "coordinate": [
+      133.062605,
+      35.463204
+    ],
+    "placeID": "ChIJOXsgeOMEVzURccAr3owJfsw",
+    "hierarchyLevel": 0,
+    "probability": 0.902664,
+    "subVenues": [],
+    "anomalyFlags": [
+      "NONE"
+    ],
+    "placeIdentityId": "place-16"
+  },
+  {
+    "candidateId": "cand-visit-19",
+    "sourceIndex": 501,
+    "startTime": "2026-08-17T18:23:11.999+09:00",
+    "endTime": "2026-08-18T08:06:07.081+09:00",
+    "startTimestamp": 1786958591999,
+    "endTimestamp": 1787007967081,
+    "durationSec": 49375,
+    "durationMinutes": 823,
+    "coordinate": [
+      133.069376,
+      35.463685
+    ],
+    "placeID": "ChIJXUGEQPAEVzURZmiEaqCn2Hk",
+    "hierarchyLevel": 0,
+    "probability": 0.9702,
+    "subVenues": [],
+    "anomalyFlags": [
+      "NONE"
+    ],
+    "placeIdentityId": "place-17"
+  },
+  {
+    "candidateId": "cand-visit-20",
+    "sourceIndex": 504,
+    "startTime": "2026-08-18T09:21:25.247+09:00",
+    "endTime": "2026-08-18T11:51:50.999+09:00",
+    "startTimestamp": 1787012485247,
+    "endTimestamp": 1787021510999,
+    "durationSec": 9026,
+    "durationMinutes": 150,
+    "coordinate": [
+      132.748663,
+      35.396882
+    ],
+    "placeID": "ChIJx4iBSdBDVzURZLGOT3WTpq8",
+    "hierarchyLevel": 0,
+    "probability": 0.539802,
+    "subVenues": [],
+    "anomalyFlags": [
+      "NONE"
+    ],
+    "placeIdentityId": "place-18"
+  },
+  {
+    "candidateId": "cand-visit-21",
+    "sourceIndex": 505,
+    "startTime": "2026-08-18T11:51:50.999+09:00",
+    "endTime": "2026-08-18T12:07:34.000+09:00",
+    "startTimestamp": 1787021510999,
+    "endTimestamp": 1787022454000,
+    "durationSec": 943,
+    "durationMinutes": 16,
+    "coordinate": [
+      132.686374,
+      35.396705
+    ],
+    "placeID": "ChIJM7PSJZhcVzURBX1zYLWjlAo",
+    "hierarchyLevel": 0,
+    "probability": 0.502301,
+    "subVenues": [],
+    "anomalyFlags": [
+      "NONE"
+    ],
+    "placeIdentityId": "place-19"
+  },
+  {
+    "candidateId": "cand-visit-22",
+    "sourceIndex": 507,
+    "startTime": "2026-08-18T16:00:16.999+09:00",
+    "endTime": "2026-08-18T16:31:01.119+09:00",
+    "startTimestamp": 1787036416999,
+    "endTimestamp": 1787038261119,
+    "durationSec": 1844,
+    "durationMinutes": 31,
+    "coordinate": [
+      133.050379,
+      35.475734
+    ],
+    "placeID": "ChIJ5ynaRioFVzURWKvyXtr15gg",
+    "hierarchyLevel": 0,
+    "probability": 0.510608,
+    "subVenues": [],
+    "anomalyFlags": [
+      "NONE"
+    ],
+    "placeIdentityId": "place-20"
+  },
+  {
+    "candidateId": "cand-visit-23",
+    "sourceIndex": 509,
+    "startTime": "2026-08-18T16:31:38.197+09:00",
+    "endTime": "2026-08-18T18:06:36.791+09:00",
+    "startTimestamp": 1787038298197,
+    "endTimestamp": 1787043996791,
+    "durationSec": 5699,
+    "durationMinutes": 95,
+    "coordinate": [
+      133.05935,
+      35.46939
+    ],
+    "placeID": "ChIJVfePcf0EVzUR0ZKJlhGFvU8",
+    "hierarchyLevel": 0,
+    "probability": 0.371091,
+    "subVenues": [],
+    "anomalyFlags": [
+      "NONE"
+    ],
+    "placeIdentityId": "place-21"
+  },
+  {
+    "candidateId": "cand-visit-24",
+    "sourceIndex": 510,
+    "startTime": "2026-08-18T18:06:36.791+09:00",
+    "endTime": "2026-08-18T18:58:23.000+09:00",
+    "startTimestamp": 1787043996791,
+    "endTimestamp": 1787047103000,
+    "durationSec": 3106,
+    "durationMinutes": 52,
+    "coordinate": [
+      133.069376,
+      35.463685
+    ],
+    "placeID": "ChIJXUGEQPAEVzURZmiEaqCn2Hk",
+    "hierarchyLevel": 0,
+    "probability": 0.677656,
+    "subVenues": [
+      {
+        "sourceIndex": 511,
+        "hierarchyLevel": 1,
+        "startTime": "2026-08-18T18:06:36.791+09:00",
+        "endTime": "2026-08-18T18:58:23.000+09:00",
+        "durationMinutes": 52,
+        "coordinate": [
+          133.069528,
+          35.463693
+        ],
+        "placeID": "ChIJTX2sRPAEVzURxIHtTShTUJg",
+        "probability": 0.677656,
+        "flattenReason": "SAME_OR_NEAR_TIMESTAMP_CLASH_0S"
+      }
+    ],
+    "anomalyFlags": [
+      "FLATTENED_1_SUB_VENUES"
+    ],
+    "placeIdentityId": "place-17"
+  },
+  {
+    "candidateId": "cand-visit-25",
+    "sourceIndex": 513,
+    "startTime": "2026-08-18T19:48:16.965+09:00",
+    "endTime": "2026-08-19T08:45:52.224+09:00",
+    "startTimestamp": 1787050096965,
+    "endTimestamp": 1787096752224,
+    "durationSec": 46655,
+    "durationMinutes": 778,
+    "coordinate": [
+      133.062605,
+      35.463204
+    ],
+    "placeID": "ChIJOXsgeOMEVzURccAr3owJfsw",
+    "hierarchyLevel": 0,
+    "probability": 0.921632,
+    "subVenues": [],
+    "anomalyFlags": [
+      "NONE"
+    ],
+    "placeIdentityId": "place-16"
+  },
+  {
+    "candidateId": "cand-visit-26",
+    "sourceIndex": 515,
+    "startTime": "2026-08-19T09:45:54.269+09:00",
+    "endTime": "2026-08-19T10:05:42.003+09:00",
+    "startTimestamp": 1787100354269,
+    "endTimestamp": 1787101542003,
+    "durationSec": 1188,
+    "durationMinutes": 20,
+    "coordinate": [
+      133.306437,
+      35.562282
+    ],
+    "placeID": "ChIJC1yC78FQVjURS-cGv6wgQNI",
+    "hierarchyLevel": 0,
+    "probability": 0.938014,
+    "subVenues": [],
+    "anomalyFlags": [
+      "NONE"
+    ],
+    "placeIdentityId": "place-22"
+  },
+  {
+    "candidateId": "cand-visit-27",
+    "sourceIndex": 517,
+    "startTime": "2026-08-19T14:45:19.259+09:00",
+    "endTime": "2026-08-19T16:04:47.086+09:00",
+    "startTimestamp": 1787118319259,
+    "endTimestamp": 1787123087086,
+    "durationSec": 4768,
+    "durationMinutes": 79,
+    "coordinate": [
+      133.875517,
+      34.699869
+    ],
+    "placeID": "ChIJ29wBIcgGVDUR8D9xoHdMAcc",
+    "hierarchyLevel": 0,
+    "probability": 0.754485,
+    "subVenues": [],
+    "anomalyFlags": [
+      "NONE"
+    ],
+    "placeIdentityId": "place-23"
+  },
+  {
+    "candidateId": "cand-visit-28",
+    "sourceIndex": 519,
+    "startTime": "2026-08-19T17:03:02.258+09:00",
+    "endTime": "2026-08-19T17:11:30.232+09:00",
+    "startTimestamp": 1787126582258,
+    "endTimestamp": 1787127090232,
+    "durationSec": 508,
+    "durationMinutes": 8,
+    "coordinate": [
+      133.910332,
+      34.670554
+    ],
+    "placeID": "ChIJY96Kgp8HVDURm7LLBjmou8E",
+    "hierarchyLevel": 0,
+    "probability": 0.510433,
+    "subVenues": [],
+    "anomalyFlags": [
+      "NONE"
+    ],
+    "placeIdentityId": "place-24"
+  },
+  {
+    "candidateId": "cand-visit-29",
+    "sourceIndex": 521,
+    "startTime": "2026-08-19T17:13:36.215+09:00",
+    "endTime": "2026-08-20T09:24:26.011+09:00",
+    "startTimestamp": 1787127216215,
+    "endTimestamp": 1787185466011,
+    "durationSec": 58250,
+    "durationMinutes": 971,
+    "coordinate": [
+      133.916076,
+      34.666512
+    ],
+    "placeID": "ChIJwfCJmk0GVDUR9j1fkAZHFQE",
+    "hierarchyLevel": 0,
+    "probability": 0.778359,
+    "subVenues": [],
+    "anomalyFlags": [
+      "NONE"
+    ],
+    "placeIdentityId": "place-25"
+  }
+]

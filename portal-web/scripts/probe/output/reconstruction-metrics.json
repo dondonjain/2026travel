@@ -1,0 +1,23 @@
+{
+  "probeExecutionTimestamp": "2026-10-17T07:17:57.637Z",
+  "rawTimelineEntriesScanned": 904,
+  "rawVisitsInWindow": 35,
+  "shortStopsFiltered": 1,
+  "endpointAnomaliesFiltered": 1,
+  "duplicatesAndSubVenuesFlattened": 4,
+  "candidateVisitsProduced": 29,
+  "uniquePlacesIdentified": 25,
+  "repeatedPlaceGroupsCount": 4,
+  "goldenBaselineComparison": {
+    "goldenTotalNodes": 35,
+    "groundTruthValidVisits": 29,
+    "reconstructedCandidateCount": 29,
+    "visitRecall": 1,
+    "visitPrecision": 1,
+    "shortStopFalsePositivesRemoved": 1,
+    "tainanEndpointAnomaliesRemoved": 1,
+    "duplicatesAndSubVenuesFlattened": 4,
+    "repeatedPlaceGroupsFound": 4,
+    "placeGroupingAccuracy": "100% of repeated visits properly resolved to shared place identity"
+  }
+}

@@ -1,0 +1,331 @@
+[
+  {
+    "placeIdentityId": "place-1",
+    "sourcePlaceID": "ChIJ04njPUwGVDURV885IqoD16I",
+    "coordinate": [
+      133.917733,
+      34.666121
+    ],
+    "visitCount": 2,
+    "candidateVisitIds": [
+      "cand-visit-1",
+      "cand-visit-3"
+    ],
+    "isRevisited": true
+  },
+  {
+    "placeIdentityId": "place-2",
+    "sourcePlaceID": "ChIJkyqZELMHVDUREhwbsCvO-I0",
+    "coordinate": [
+      133.917628,
+      34.661996
+    ],
+    "visitCount": 1,
+    "candidateVisitIds": [
+      "cand-visit-2"
+    ],
+    "isRevisited": false
+  },
+  {
+    "placeIdentityId": "place-3",
+    "sourcePlaceID": "ChIJAQAwy1vWUzURtVDXyJ_ao4M",
+    "coordinate": [
+      133.817855,
+      34.188691
+    ],
+    "visitCount": 1,
+    "candidateVisitIds": [
+      "cand-visit-4"
+    ],
+    "isRevisited": false
+  },
+  {
+    "placeIdentityId": "place-4",
+    "sourcePlaceID": "ChIJ8YD3pbBZUTURCYdICq4PR80",
+    "coordinate": [
+      133.743184,
+      34.539073
+    ],
+    "visitCount": 2,
+    "candidateVisitIds": [
+      "cand-visit-5",
+      "cand-visit-8"
+    ],
+    "isRevisited": true
+  },
+  {
+    "placeIdentityId": "place-5",
+    "sourcePlaceID": "ChIJc7EQr1xWUTURZ0IX8YyTBjQ",
+    "coordinate": [
+      133.761495,
+      34.603587
+    ],
+    "visitCount": 1,
+    "candidateVisitIds": [
+      "cand-visit-6"
+    ],
+    "isRevisited": false
+  },
+  {
+    "placeIdentityId": "place-6",
+    "sourcePlaceID": "ChIJ_-nOTkZWUTURLnI3NjP-BOA",
+    "coordinate": [
+      133.768964,
+      34.596808
+    ],
+    "visitCount": 1,
+    "candidateVisitIds": [
+      "cand-visit-7"
+    ],
+    "isRevisited": false
+  },
+  {
+    "placeIdentityId": "place-7",
+    "sourcePlaceID": "ChIJJahEpPNqUTUR_fzAphTLmy4",
+    "coordinate": [
+      133.51581,
+      34.498857
+    ],
+    "visitCount": 1,
+    "candidateVisitIds": [
+      "cand-visit-9"
+    ],
+    "isRevisited": false
+  },
+  {
+    "placeIdentityId": "place-8",
+    "sourcePlaceID": "ChIJnzHMp4sBUTURp-WnWcepKx8",
+    "coordinate": [
+      133.203953,
+      34.40882
+    ],
+    "visitCount": 1,
+    "candidateVisitIds": [
+      "cand-visit-10"
+    ],
+    "isRevisited": false
+  },
+  {
+    "placeIdentityId": "place-9",
+    "sourcePlaceID": "ChIJ6-d1XzajWjURVa9cnIMorvw",
+    "coordinate": [
+      132.454985,
+      34.388138
+    ],
+    "visitCount": 1,
+    "candidateVisitIds": [
+      "cand-visit-11"
+    ],
+    "isRevisited": false
+  },
+  {
+    "placeIdentityId": "place-10",
+    "sourcePlaceID": "ChIJgzAzVG2iWjURZRZ1udXOKeE",
+    "coordinate": [
+      132.452201,
+      34.392687
+    ],
+    "visitCount": 1,
+    "candidateVisitIds": [
+      "cand-visit-12"
+    ],
+    "isRevisited": false
+  },
+  {
+    "placeIdentityId": "place-11",
+    "sourcePlaceID": "ChIJUTnlwwSiWjURWMAU_AA1Do4",
+    "coordinate": [
+      132.465982,
+      34.388284
+    ],
+    "visitCount": 1,
+    "candidateVisitIds": [
+      "cand-visit-13"
+    ],
+    "isRevisited": false
+  },
+  {
+    "placeIdentityId": "place-12",
+    "sourcePlaceID": "ChIJPzXH0yJ_UDURm0oSkAtYaBY",
+    "coordinate": [
+      132.580608,
+      34.582064
+    ],
+    "visitCount": 1,
+    "candidateVisitIds": [
+      "cand-visit-14"
+    ],
+    "isRevisited": false
+  },
+  {
+    "placeIdentityId": "place-13",
+    "sourcePlaceID": "ChIJbzSmuM6HUDURWu-g9Eheq48",
+    "coordinate": [
+      132.673833,
+      34.647823
+    ],
+    "visitCount": 1,
+    "candidateVisitIds": [
+      "cand-visit-15"
+    ],
+    "isRevisited": false
+  },
+  {
+    "placeIdentityId": "place-14",
+    "sourcePlaceID": "ChIJ1bRUaV2GUDURogtAl22ARTs",
+    "coordinate": [
+      132.676746,
+      34.650681
+    ],
+    "visitCount": 1,
+    "candidateVisitIds": [
+      "cand-visit-16"
+    ],
+    "isRevisited": false
+  },
+  {
+    "placeIdentityId": "place-15",
+    "sourcePlaceID": "ChIJ3QhqSTZKVzURNMTpVHlI0vg",
+    "coordinate": [
+      132.830135,
+      35.166989
+    ],
+    "visitCount": 1,
+    "candidateVisitIds": [
+      "cand-visit-17"
+    ],
+    "isRevisited": false
+  },
+  {
+    "placeIdentityId": "place-16",
+    "sourcePlaceID": "ChIJOXsgeOMEVzURccAr3owJfsw",
+    "coordinate": [
+      133.062605,
+      35.463204
+    ],
+    "visitCount": 2,
+    "candidateVisitIds": [
+      "cand-visit-18",
+      "cand-visit-25"
+    ],
+    "isRevisited": true
+  },
+  {
+    "placeIdentityId": "place-17",
+    "sourcePlaceID": "ChIJXUGEQPAEVzURZmiEaqCn2Hk",
+    "coordinate": [
+      133.069376,
+      35.463685
+    ],
+    "visitCount": 2,
+    "candidateVisitIds": [
+      "cand-visit-19",
+      "cand-visit-24"
+    ],
+    "isRevisited": true
+  },
+  {
+    "placeIdentityId": "place-18",
+    "sourcePlaceID": "ChIJx4iBSdBDVzURZLGOT3WTpq8",
+    "coordinate": [
+      132.748663,
+      35.396882
+    ],
+    "visitCount": 1,
+    "candidateVisitIds": [
+      "cand-visit-20"
+    ],
+    "isRevisited": false
+  },
+  {
+    "placeIdentityId": "place-19",
+    "sourcePlaceID": "ChIJM7PSJZhcVzURBX1zYLWjlAo",
+    "coordinate": [
+      132.686374,
+      35.396705
+    ],
+    "visitCount": 1,
+    "candidateVisitIds": [
+      "cand-visit-21"
+    ],
+    "isRevisited": false
+  },
+  {
+    "placeIdentityId": "place-20",
+    "sourcePlaceID": "ChIJ5ynaRioFVzURWKvyXtr15gg",
+    "coordinate": [
+      133.050379,
+      35.475734
+    ],
+    "visitCount": 1,
+    "candidateVisitIds": [
+      "cand-visit-22"
+    ],
+    "isRevisited": false
+  },
+  {
+    "placeIdentityId": "place-21",
+    "sourcePlaceID": "ChIJVfePcf0EVzUR0ZKJlhGFvU8",
+    "coordinate": [
+      133.05935,
+      35.46939
+    ],
+    "visitCount": 1,
+    "candidateVisitIds": [
+      "cand-visit-23"
+    ],
+    "isRevisited": false
+  },
+  {
+    "placeIdentityId": "place-22",
+    "sourcePlaceID": "ChIJC1yC78FQVjURS-cGv6wgQNI",
+    "coordinate": [
+      133.306437,
+      35.562282
+    ],
+    "visitCount": 1,
+    "candidateVisitIds": [
+      "cand-visit-26"
+    ],
+    "isRevisited": false
+  },
+  {
+    "placeIdentityId": "place-23",
+    "sourcePlaceID": "ChIJ29wBIcgGVDUR8D9xoHdMAcc",
+    "coordinate": [
+      133.875517,
+      34.699869
+    ],
+    "visitCount": 1,
+    "candidateVisitIds": [
+      "cand-visit-27"
+    ],
+    "isRevisited": false
+  },
+  {
+    "placeIdentityId": "place-24",
+    "sourcePlaceID": "ChIJY96Kgp8HVDURm7LLBjmou8E",
+    "coordinate": [
+      133.910332,
+      34.670554
+    ],
+    "visitCount": 1,
+    "candidateVisitIds": [
+      "cand-visit-28"
+    ],
+    "isRevisited": false
+  },
+  {
+    "placeIdentityId": "place-25",
+    "sourcePlaceID": "ChIJwfCJmk0GVDUR9j1fkAZHFQE",
+    "coordinate": [
+      133.916076,
+      34.666512
+    ],
+    "visitCount": 1,
+    "candidateVisitIds": [
+      "cand-visit-29"
+    ],
+    "isRevisited": false
+  }
+]

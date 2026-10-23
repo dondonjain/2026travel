@@ -1,0 +1,652 @@
+[
+  {
+    "index": 0,
+    "startIdx": 0,
+    "isGap": false,
+    "points": 2,
+    "rawDist": 0,
+    "method": "FALLBACK_RAW",
+    "confidence": null,
+    "reason": "Only 2 points"
+  },
+  {
+    "index": 1,
+    "startIdx": 1,
+    "isGap": true,
+    "points": 2,
+    "rawDist": 1821.2581047010904,
+    "method": "GREAT_CIRCLE",
+    "confidence": null,
+    "reason": "Distance 1821.3km > 300"
+  },
+  {
+    "index": 2,
+    "startIdx": 2,
+    "isGap": false,
+    "points": 16,
+    "rawDist": 13.620094572698841,
+    "method": "FALLBACK_RAW",
+    "confidence": 0,
+    "reason": "Low confidence: 0.00"
+  },
+  {
+    "index": 3,
+    "startIdx": 17,
+    "isGap": true,
+    "points": 2,
+    "rawDist": 0.8287934190549864,
+    "method": "FALLBACK_RAW",
+    "confidence": null,
+    "reason": "Only 2 points"
+  },
+  {
+    "index": 4,
+    "startIdx": 18,
+    "isGap": false,
+    "points": 9,
+    "rawDist": 2.383427019212135,
+    "method": "FALLBACK_RAW",
+    "confidence": 0.000004,
+    "reason": "Low confidence: 0.00"
+  },
+  {
+    "index": 5,
+    "startIdx": 26,
+    "isGap": true,
+    "points": 2,
+    "rawDist": 52.44999358660725,
+    "method": "FALLBACK_RAW",
+    "confidence": null,
+    "reason": "Only 2 points"
+  },
+  {
+    "index": 6,
+    "startIdx": 27,
+    "isGap": false,
+    "points": 4,
+    "rawDist": 0.3738437205211794,
+    "method": "FALLBACK_RAW",
+    "confidence": 0,
+    "reason": "Low confidence: 0.00"
+  },
+  {
+    "index": 7,
+    "startIdx": 30,
+    "isGap": true,
+    "points": 2,
+    "rawDist": 0.32528186073975013,
+    "method": "FALLBACK_RAW",
+    "confidence": null,
+    "reason": "Only 2 points"
+  },
+  {
+    "index": 8,
+    "startIdx": 31,
+    "isGap": false,
+    "points": 3,
+    "rawDist": 0.3741530175897641,
+    "method": "FALLBACK_RAW",
+    "confidence": 0.00001,
+    "reason": "Low confidence: 0.00"
+  },
+  {
+    "index": 9,
+    "startIdx": 33,
+    "isGap": true,
+    "points": 2,
+    "rawDist": 39.330044503149935,
+    "method": "FALLBACK_RAW",
+    "confidence": null,
+    "reason": "Only 2 points"
+  },
+  {
+    "index": 10,
+    "startIdx": 34,
+    "isGap": false,
+    "points": 8,
+    "rawDist": 7.887768662512968,
+    "method": "FALLBACK_RAW",
+    "confidence": 0.118526,
+    "reason": "Low confidence: 0.12"
+  },
+  {
+    "index": 11,
+    "startIdx": 41,
+    "isGap": true,
+    "points": 2,
+    "rawDist": 0.10883763347520206,
+    "method": "FALLBACK_RAW",
+    "confidence": null,
+    "reason": "Only 2 points"
+  },
+  {
+    "index": 12,
+    "startIdx": 42,
+    "isGap": false,
+    "points": 7,
+    "rawDist": 1.815524537329436,
+    "method": "FALLBACK_RAW",
+    "confidence": 0.000834,
+    "reason": "Low confidence: 0.00"
+  },
+  {
+    "index": 13,
+    "startIdx": 48,
+    "isGap": true,
+    "points": 2,
+    "rawDist": 6.8400661283062325,
+    "method": "FALLBACK_RAW",
+    "confidence": null,
+    "reason": "Only 2 points"
+  },
+  {
+    "index": 14,
+    "startIdx": 49,
+    "isGap": false,
+    "points": 2,
+    "rawDist": 0.010870409863298104,
+    "method": "FALLBACK_RAW",
+    "confidence": null,
+    "reason": "Only 2 points"
+  },
+  {
+    "index": 15,
+    "startIdx": 50,
+    "isGap": true,
+    "points": 2,
+    "rawDist": 4.208839165459447,
+    "method": "FALLBACK_RAW",
+    "confidence": null,
+    "reason": "Only 2 points"
+  },
+  {
+    "index": 16,
+    "startIdx": 51,
+    "isGap": false,
+    "points": 19,
+    "rawDist": 54.78944111167172,
+    "method": "FALLBACK_RAW",
+    "confidence": 0.44435250000000004,
+    "reason": "Low confidence: 0.44"
+  },
+  {
+    "index": 17,
+    "startIdx": 69,
+    "isGap": true,
+    "points": 2,
+    "rawDist": 50.32341570376664,
+    "method": "FALLBACK_RAW",
+    "confidence": null,
+    "reason": "Only 2 points"
+  },
+  {
+    "index": 18,
+    "startIdx": 70,
+    "isGap": false,
+    "points": 1,
+    "rawDist": 0,
+    "method": "FALLBACK_RAW",
+    "confidence": null,
+    "reason": "Single point"
+  },
+  {
+    "index": 19,
+    "startIdx": 70,
+    "isGap": true,
+    "points": 2,
+    "rawDist": 19.55911556114872,
+    "method": "FALLBACK_RAW",
+    "confidence": null,
+    "reason": "Only 2 points"
+  },
+  {
+    "index": 20,
+    "startIdx": 71,
+    "isGap": false,
+    "points": 11,
+    "rawDist": 2.7565519554725726,
+    "method": "FALLBACK_RAW",
+    "confidence": 0.136311,
+    "reason": "Low confidence: 0.14"
+  },
+  {
+    "index": 21,
+    "startIdx": 81,
+    "isGap": true,
+    "points": 2,
+    "rawDist": 0.008215073599078004,
+    "method": "FALLBACK_RAW",
+    "confidence": null,
+    "reason": "Only 2 points"
+  },
+  {
+    "index": 22,
+    "startIdx": 82,
+    "isGap": false,
+    "points": 1,
+    "rawDist": 0,
+    "method": "FALLBACK_RAW",
+    "confidence": null,
+    "reason": "Single point"
+  },
+  {
+    "index": 23,
+    "startIdx": 82,
+    "isGap": true,
+    "points": 2,
+    "rawDist": 0.028379595557236344,
+    "method": "FALLBACK_RAW",
+    "confidence": null,
+    "reason": "Only 2 points"
+  },
+  {
+    "index": 24,
+    "startIdx": 83,
+    "isGap": false,
+    "points": 2,
+    "rawDist": 0,
+    "method": "FALLBACK_RAW",
+    "confidence": null,
+    "reason": "Only 2 points"
+  },
+  {
+    "index": 25,
+    "startIdx": 84,
+    "isGap": true,
+    "points": 2,
+    "rawDist": 0,
+    "method": "FALLBACK_RAW",
+    "confidence": null,
+    "reason": "Only 2 points"
+  },
+  {
+    "index": 26,
+    "startIdx": 85,
+    "isGap": false,
+    "points": 6,
+    "rawDist": 13.969119267447686,
+    "method": "FALLBACK_RAW",
+    "confidence": 0.984934,
+    "reason": "Low coverage: matched 0.1km vs raw 14.0km"
+  },
+  {
+    "index": 27,
+    "startIdx": 90,
+    "isGap": true,
+    "points": 2,
+    "rawDist": 24.759534312470283,
+    "method": "FALLBACK_RAW",
+    "confidence": null,
+    "reason": "Only 2 points"
+  },
+  {
+    "index": 28,
+    "startIdx": 91,
+    "isGap": false,
+    "points": 1,
+    "rawDist": 0,
+    "method": "FALLBACK_RAW",
+    "confidence": null,
+    "reason": "Single point"
+  },
+  {
+    "index": 29,
+    "startIdx": 91,
+    "isGap": true,
+    "points": 2,
+    "rawDist": 25.45355635837021,
+    "method": "FALLBACK_RAW",
+    "confidence": null,
+    "reason": "Only 2 points"
+  },
+  {
+    "index": 30,
+    "startIdx": 92,
+    "isGap": false,
+    "points": 93,
+    "rawDist": 64.55723906528905,
+    "method": "MATCHED_ACCEPTED",
+    "confidence": 0.505455,
+    "reason": "Accepted with ratio 1.06, conf 0.51"
+  },
+  {
+    "index": 31,
+    "startIdx": 184,
+    "isGap": true,
+    "points": 2,
+    "rawDist": 51.4269582357639,
+    "method": "FALLBACK_RAW",
+    "confidence": null,
+    "reason": "Only 2 points"
+  },
+  {
+    "index": 32,
+    "startIdx": 185,
+    "isGap": false,
+    "points": 1,
+    "rawDist": 0,
+    "method": "FALLBACK_RAW",
+    "confidence": null,
+    "reason": "Single point"
+  },
+  {
+    "index": 33,
+    "startIdx": 185,
+    "isGap": true,
+    "points": 2,
+    "rawDist": 32.210954008055,
+    "method": "FALLBACK_RAW",
+    "confidence": null,
+    "reason": "Only 2 points"
+  },
+  {
+    "index": 34,
+    "startIdx": 186,
+    "isGap": false,
+    "points": 52,
+    "rawDist": 49.491400614800725,
+    "method": "MATCHED_HIGH_CONFIDENCE",
+    "confidence": 0.953093,
+    "reason": "Accepted with ratio 1.03, conf 0.95"
+  },
+  {
+    "index": 35,
+    "startIdx": 237,
+    "isGap": true,
+    "points": 2,
+    "rawDist": 31.254026839722002,
+    "method": "FALLBACK_RAW",
+    "confidence": null,
+    "reason": "Only 2 points"
+  },
+  {
+    "index": 36,
+    "startIdx": 238,
+    "isGap": false,
+    "points": 1,
+    "rawDist": 0,
+    "method": "FALLBACK_RAW",
+    "confidence": null,
+    "reason": "Single point"
+  },
+  {
+    "index": 37,
+    "startIdx": 238,
+    "isGap": true,
+    "points": 2,
+    "rawDist": 30.496337942041016,
+    "method": "FALLBACK_RAW",
+    "confidence": null,
+    "reason": "Only 2 points"
+  },
+  {
+    "index": 38,
+    "startIdx": 239,
+    "isGap": false,
+    "points": 57,
+    "rawDist": 46.44225261217949,
+    "method": "MATCHED_ACCEPTED",
+    "confidence": 0.785701,
+    "reason": "Accepted with ratio 1.05, conf 0.79"
+  },
+  {
+    "index": 39,
+    "startIdx": 295,
+    "isGap": true,
+    "points": 2,
+    "rawDist": 0.6248765703723507,
+    "method": "FALLBACK_RAW",
+    "confidence": null,
+    "reason": "Only 2 points"
+  },
+  {
+    "index": 40,
+    "startIdx": 296,
+    "isGap": false,
+    "points": 7,
+    "rawDist": 10.332651840908014,
+    "method": "FALLBACK_RAW",
+    "confidence": 0.000096,
+    "reason": "Low confidence: 0.00"
+  },
+  {
+    "index": 41,
+    "startIdx": 302,
+    "isGap": true,
+    "points": 2,
+    "rawDist": 19.654631876480316,
+    "method": "FALLBACK_RAW",
+    "confidence": null,
+    "reason": "Only 2 points"
+  },
+  {
+    "index": 42,
+    "startIdx": 303,
+    "isGap": false,
+    "points": 4,
+    "rawDist": 0.7903209655572759,
+    "method": "FALLBACK_RAW",
+    "confidence": 0.000001,
+    "reason": "Low confidence: 0.00"
+  },
+  {
+    "index": 43,
+    "startIdx": 306,
+    "isGap": true,
+    "points": 2,
+    "rawDist": 5.646021622718154,
+    "method": "FALLBACK_RAW",
+    "confidence": null,
+    "reason": "Only 2 points"
+  },
+  {
+    "index": 44,
+    "startIdx": 307,
+    "isGap": false,
+    "points": 4,
+    "rawDist": 0.4352999138725821,
+    "method": "FALLBACK_RAW",
+    "confidence": 0,
+    "reason": "Low confidence: 0.00"
+  },
+  {
+    "index": 45,
+    "startIdx": 310,
+    "isGap": true,
+    "points": 2,
+    "rawDist": 34.162669909253175,
+    "method": "FALLBACK_RAW",
+    "confidence": null,
+    "reason": "Only 2 points"
+  },
+  {
+    "index": 46,
+    "startIdx": 311,
+    "isGap": false,
+    "points": 16,
+    "rawDist": 3.3667598598592368,
+    "method": "FALLBACK_RAW",
+    "confidence": 0.000007,
+    "reason": "Low confidence: 0.00"
+  },
+  {
+    "index": 47,
+    "startIdx": 326,
+    "isGap": true,
+    "points": 2,
+    "rawDist": 0.017611109675873014,
+    "method": "FALLBACK_RAW",
+    "confidence": null,
+    "reason": "Only 2 points"
+  },
+  {
+    "index": 48,
+    "startIdx": 327,
+    "isGap": false,
+    "points": 1,
+    "rawDist": 0,
+    "method": "FALLBACK_RAW",
+    "confidence": null,
+    "reason": "Single point"
+  },
+  {
+    "index": 49,
+    "startIdx": 327,
+    "isGap": true,
+    "points": 2,
+    "rawDist": 0.09880638561300088,
+    "method": "FALLBACK_RAW",
+    "confidence": null,
+    "reason": "Only 2 points"
+  },
+  {
+    "index": 50,
+    "startIdx": 328,
+    "isGap": false,
+    "points": 9,
+    "rawDist": 26.639951087430674,
+    "method": "FALLBACK_RAW",
+    "confidence": 0.000002,
+    "reason": "Low confidence: 0.00"
+  },
+  {
+    "index": 51,
+    "startIdx": 336,
+    "isGap": true,
+    "points": 2,
+    "rawDist": 45.35745835723774,
+    "method": "FALLBACK_RAW",
+    "confidence": null,
+    "reason": "Only 2 points"
+  },
+  {
+    "index": 52,
+    "startIdx": 337,
+    "isGap": false,
+    "points": 1,
+    "rawDist": 0,
+    "method": "FALLBACK_RAW",
+    "confidence": null,
+    "reason": "Single point"
+  },
+  {
+    "index": 53,
+    "startIdx": 337,
+    "isGap": true,
+    "points": 2,
+    "rawDist": 33.02544381172329,
+    "method": "FALLBACK_RAW",
+    "confidence": null,
+    "reason": "Only 2 points"
+  },
+  {
+    "index": 54,
+    "startIdx": 338,
+    "isGap": false,
+    "points": 9,
+    "rawDist": 16.26179072791249,
+    "method": "MATCHED_HIGH_CONFIDENCE",
+    "confidence": 0.96407,
+    "reason": "Accepted with ratio 1.01, conf 0.96"
+  },
+  {
+    "index": 55,
+    "startIdx": 346,
+    "isGap": true,
+    "points": 2,
+    "rawDist": 21.04473353293131,
+    "method": "FALLBACK_RAW",
+    "confidence": null,
+    "reason": "Only 2 points"
+  },
+  {
+    "index": 56,
+    "startIdx": 347,
+    "isGap": false,
+    "points": 20,
+    "rawDist": 14.875304682927073,
+    "method": "FALLBACK_RAW",
+    "confidence": 0.05991,
+    "reason": "Low confidence: 0.06"
+  },
+  {
+    "index": 57,
+    "startIdx": 366,
+    "isGap": true,
+    "points": 2,
+    "rawDist": 0.32281197358451036,
+    "method": "FALLBACK_RAW",
+    "confidence": null,
+    "reason": "Only 2 points"
+  },
+  {
+    "index": 58,
+    "startIdx": 367,
+    "isGap": false,
+    "points": 8,
+    "rawDist": 4.82623996887696,
+    "method": "MATCHED_HIGH_CONFIDENCE",
+    "confidence": 0.982067,
+    "reason": "Accepted with ratio 0.89, conf 0.98"
+  },
+  {
+    "index": 59,
+    "startIdx": 374,
+    "isGap": true,
+    "points": 2,
+    "rawDist": 1624.832728878635,
+    "method": "GREAT_CIRCLE",
+    "confidence": null,
+    "reason": "Distance 1624.8km > 300"
+  },
+  {
+    "index": 60,
+    "startIdx": 375,
+    "isGap": false,
+    "points": 1,
+    "rawDist": 0,
+    "method": "FALLBACK_RAW",
+    "confidence": null,
+    "reason": "Single point"
+  },
+  {
+    "index": 61,
+    "startIdx": 375,
+    "isGap": true,
+    "points": 2,
+    "rawDist": 4.27882939554545,
+    "method": "FALLBACK_RAW",
+    "confidence": null,
+    "reason": "Only 2 points"
+  },
+  {
+    "index": 62,
+    "startIdx": 376,
+    "isGap": false,
+    "points": 3,
+    "rawDist": 4.792979421121448,
+    "method": "FALLBACK_RAW",
+    "confidence": 0,
+    "reason": "Low confidence: 0.00"
+  },
+  {
+    "index": 63,
+    "startIdx": 378,
+    "isGap": true,
+    "points": 2,
+    "rawDist": 229.19115110201994,
+    "method": "FALLBACK_RAW",
+    "confidence": null,
+    "reason": "Only 2 points"
+  },
+  {
+    "index": 64,
+    "startIdx": 379,
+    "isGap": false,
+    "points": 3,
+    "rawDist": 0.10674776301037005,
+    "method": "FALLBACK_RAW",
+    "confidence": 0,
+    "reason": "Low confidence: 0.00"
+  }
+]

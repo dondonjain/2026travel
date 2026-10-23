@@ -1,0 +1,52 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "line-1",
+        "type": "trajectory"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [121.5654, 25.0330],
+          [121.5644, 25.0340],
+          [121.5624, 25.0350],
+          [121.5604, 25.0360],
+          [121.5584, 25.0380]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "node-1",
+        "type": "video-node",
+        "title": "Taipei 101 Departure",
+        "description": "這裡是旅程的起點，我們在台北 101 集合準備出發，當天天氣非常晴朗，心情特別好！",
+        "youtubeId": "dQw4w9WgXcQ",
+        "timestamp": "2023-10-01T10:00:00Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.5654, 25.0330]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "node-2",
+        "type": "video-node",
+        "title": "Sun Yat-Sen Memorial Hall",
+        "description": "抵達國父紀念館，廣場上有許多人在散步與跳舞，我們在這裡稍微休息並拍攝了第一支 Vlog。",
+        "youtubeId": "jNQXAC9IVRw",
+        "timestamp": "2023-10-01T11:00:00Z"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.5584, 25.0380]
+      }
+    }
+  ]
+}

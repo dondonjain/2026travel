@@ -1,0 +1,12 @@
+{
+  "totalRawActivities": 30,
+  "activityTypeBreakdown": {
+    "flying": 1,
+    "in train": 2,
+    "walking": 7,
+    "in passenger vehicle": 20
+  },
+  "totalRawPathPoints": 287,
+  "japanTrajectorySampleCount": 373,
+  "largeJumpsExceeding100km": []
+}

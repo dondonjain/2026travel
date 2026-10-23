@@ -1,0 +1,17 @@
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Build output
+.next/
+dist/
+supabase/.temp/
+
+# Logs and generated TypeScript files
+*.log
+*.tsbuildinfo
+next-env.d.ts

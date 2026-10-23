@@ -1,0 +1,676 @@
+{
+  "node-1": {
+    "id": "node-1",
+    "title": "岡山車站抵達 (JR Okayama Station)",
+    "description": "搭乘新幹線順利抵達「晴天之國」岡山！走出車站便能看到著名的桃太郎銅像，站前商圈熱鬧且交通指引清晰。",
+    "tags": [
+      "日本山陽",
+      "交通樞紐",
+      "晴天之國",
+      "桃太郎"
+    ],
+    "category": "transit",
+    "isHighlight": true,
+    "media": [
+      {
+        "type": "youtube",
+        "url": "jNQXAC9IVRw",
+        "title": "岡山站前漫步記錄",
+        "caption": "抵達時晴空萬里，站前廣場人潮絡繹不絕"
+      },
+      {
+        "type": "image",
+        "url": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=800&q=80",
+        "title": "城市景觀",
+        "caption": "岡山站前繁華的街景"
+      }
+    ]
+  },
+  "node-2": {
+    "id": "node-2",
+    "title": "岡山後樂園漫步",
+    "description": "日本三大名園之一，榮獲米其林三星評鑑。借景岡山城，延養亭與池泉迴遊式庭園的綠意令人心曠神怡。",
+    "tags": [
+      "日本三大名園",
+      "歷史古蹟",
+      "米其林三星",
+      "岡山名勝"
+    ],
+    "category": "spot",
+    "isHighlight": true,
+    "media": [
+      {
+        "type": "image",
+        "url": "https://images.unsplash.com/photo-1528164344705-475426879c0d?auto=format&fit=crop&w=800&q=80",
+        "title": "後樂園庭園",
+        "caption": "典型的日式迴遊式庭園與池畔倒影"
+      },
+      {
+        "type": "youtube",
+        "url": "M7lc1UVf-VE",
+        "title": "名園巡禮精華",
+        "caption": "四季皆美的庭園景觀"
+      }
+    ]
+  },
+  "node-7": {
+    "id": "node-7",
+    "title": "倉敷美觀地區散策",
+    "description": "白壁宅邸與倉敷川沿岸的垂柳相映成趣，完整保留了江戶時代的天領風貌。在此品嚐了知名白桃甜點與倉敷丹寧咖啡。",
+    "tags": [
+      "倉敷美觀",
+      "老街散步",
+      "江戶風情",
+      "必訪美食"
+    ],
+    "category": "spot",
+    "isHighlight": true,
+    "media": [
+      {
+        "type": "youtube",
+        "url": "jNQXAC9IVRw",
+        "title": "倉敷川水岸風情",
+        "caption": "沿岸古色古香的白壁土藏建築"
+      },
+      {
+        "type": "image",
+        "url": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=800&q=80",
+        "title": "倉敷川垂柳",
+        "caption": "漫步在石板路上感受歷史餘韻"
+      },
+      {
+        "type": "external-video",
+        "platform": "ig",
+        "url": "https://www.instagram.com/reel/C-test-video",
+        "thumbnail": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=800&q=80",
+        "title": "倉敷美觀 IG Reel",
+        "caption": "看看其他旅客在倉敷的絕美短影音"
+      }
+    ]
+  },
+  "node-14": {
+    "id": "node-14",
+    "title": "廣島和平紀念公園",
+    "description": "世界文化遺產原爆圓頂館，親身感受歷史的肅穆與對和平的恆久祈願。傍晚在市區品嚐了道地的廣島燒。",
+    "tags": [
+      "世界遺產",
+      "歷史記憶",
+      "和平祈願",
+      "廣島美食"
+    ],
+    "category": "spot",
+    "isHighlight": true,
+    "media": [
+      {
+        "type": "image",
+        "url": "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?auto=format&fit=crop&w=800&q=80",
+        "title": "和平紀念像",
+        "caption": "傍晚時分的和平紀念公園"
+      },
+      {
+        "type": "youtube",
+        "url": "M7lc1UVf-VE",
+        "title": "廣島市區街景紀錄",
+        "caption": "和平路上的電車與市景"
+      }
+    ]
+  },
+  "node-3": {
+    "id": "node-3",
+    "title": "旅程景點 3",
+    "description": "抵達時間：2026/8/14 下午5:44:07。",
+    "tags": [
+      "自動分類"
+    ],
+    "category": "spot",
+    "isHighlight": false,
+    "media": [
+      {
+        "type": "youtube",
+        "url": "jNQXAC9IVRw",
+        "title": "旅程紀錄",
+        "caption": "抵達時間：2026/8/14 下午5:44:07。"
+      }
+    ]
+  },
+  "node-4": {
+    "id": "node-4",
+    "title": "旅程景點 4",
+    "description": "抵達時間：2026/8/15 上午8:18:23。",
+    "tags": [
+      "自動分類"
+    ],
+    "category": "spot",
+    "isHighlight": false,
+    "media": [
+      {
+        "type": "youtube",
+        "url": "jNQXAC9IVRw",
+        "title": "旅程紀錄",
+        "caption": "抵達時間：2026/8/15 上午8:18:23。"
+      }
+    ]
+  },
+  "node-5": {
+    "id": "node-5",
+    "title": "旅程景點 5",
+    "description": "抵達時間：2026/8/15 上午10:06:08。",
+    "tags": [
+      "自動分類"
+    ],
+    "category": "spot",
+    "isHighlight": false,
+    "media": [
+      {
+        "type": "youtube",
+        "url": "jNQXAC9IVRw",
+        "title": "旅程紀錄",
+        "caption": "抵達時間：2026/8/15 上午10:06:08。"
+      }
+    ]
+  },
+  "node-6": {
+    "id": "node-6",
+    "title": "旅程景點 6",
+    "description": "抵達時間：2026/8/15 下午3:00:51。",
+    "tags": [
+      "自動分類"
+    ],
+    "category": "spot",
+    "isHighlight": false,
+    "media": [
+      {
+        "type": "youtube",
+        "url": "jNQXAC9IVRw",
+        "title": "旅程紀錄",
+        "caption": "抵達時間：2026/8/15 下午3:00:51。"
+      }
+    ]
+  },
+  "node-8": {
+    "id": "node-8",
+    "title": "旅程景點 8",
+    "description": "抵達時間：2026/8/15 下午7:33:28。",
+    "tags": [
+      "自動分類"
+    ],
+    "category": "spot",
+    "isHighlight": false,
+    "media": [
+      {
+        "type": "youtube",
+        "url": "jNQXAC9IVRw",
+        "title": "旅程紀錄",
+        "caption": "抵達時間：2026/8/15 下午7:33:28。"
+      }
+    ]
+  },
+  "node-9": {
+    "id": "node-9",
+    "title": "旅程景點 9",
+    "description": "抵達時間：2026/8/16 上午7:25:46。",
+    "tags": [
+      "自動分類"
+    ],
+    "category": "spot",
+    "isHighlight": false,
+    "media": [
+      {
+        "type": "youtube",
+        "url": "jNQXAC9IVRw",
+        "title": "旅程紀錄",
+        "caption": "抵達時間：2026/8/16 上午7:25:46。"
+      }
+    ]
+  },
+  "node-10": {
+    "id": "node-10",
+    "title": "旅程景點 10",
+    "description": "抵達時間：2026/8/16 上午11:18:08。",
+    "tags": [
+      "自動分類"
+    ],
+    "category": "spot",
+    "isHighlight": false,
+    "media": [
+      {
+        "type": "youtube",
+        "url": "jNQXAC9IVRw",
+        "title": "旅程紀錄",
+        "caption": "抵達時間：2026/8/16 上午11:18:08。"
+      }
+    ]
+  },
+  "node-11": {
+    "id": "node-11",
+    "title": "旅程景點 11",
+    "description": "抵達時間：2026/8/16 下午1:14:05。",
+    "tags": [
+      "自動分類"
+    ],
+    "category": "spot",
+    "isHighlight": false,
+    "media": [
+      {
+        "type": "youtube",
+        "url": "jNQXAC9IVRw",
+        "title": "旅程紀錄",
+        "caption": "抵達時間：2026/8/16 下午1:14:05。"
+      }
+    ]
+  },
+  "node-12": {
+    "id": "node-12",
+    "title": "旅程景點 12",
+    "description": "抵達時間：2026/8/16 下午4:30:40。",
+    "tags": [
+      "自動分類"
+    ],
+    "category": "spot",
+    "isHighlight": false,
+    "media": [
+      {
+        "type": "youtube",
+        "url": "jNQXAC9IVRw",
+        "title": "旅程紀錄",
+        "caption": "抵達時間：2026/8/16 下午4:30:40。"
+      }
+    ]
+  },
+  "node-13": {
+    "id": "node-13",
+    "title": "旅程景點 13",
+    "description": "抵達時間：2026/8/16 下午4:47:53。",
+    "tags": [
+      "自動分類"
+    ],
+    "category": "spot",
+    "isHighlight": false,
+    "media": [
+      {
+        "type": "youtube",
+        "url": "jNQXAC9IVRw",
+        "title": "旅程紀錄",
+        "caption": "抵達時間：2026/8/16 下午4:47:53。"
+      }
+    ]
+  },
+  "node-15": {
+    "id": "node-15",
+    "title": "旅程景點 15",
+    "description": "抵達時間：2026/8/17 上午9:25:22。",
+    "tags": [
+      "自動分類"
+    ],
+    "category": "spot",
+    "isHighlight": false,
+    "media": [
+      {
+        "type": "youtube",
+        "url": "jNQXAC9IVRw",
+        "title": "旅程紀錄",
+        "caption": "抵達時間：2026/8/17 上午9:25:22。"
+      }
+    ]
+  },
+  "node-16": {
+    "id": "node-16",
+    "title": "旅程景點 16",
+    "description": "抵達時間：2026/8/17 上午10:49:06。",
+    "tags": [
+      "自動分類"
+    ],
+    "category": "spot",
+    "isHighlight": false,
+    "media": [
+      {
+        "type": "youtube",
+        "url": "jNQXAC9IVRw",
+        "title": "旅程紀錄",
+        "caption": "抵達時間：2026/8/17 上午10:49:06。"
+      }
+    ]
+  },
+  "node-17": {
+    "id": "node-17",
+    "title": "旅程景點 17",
+    "description": "抵達時間：2026/8/17 上午11:20:04。",
+    "tags": [
+      "自動分類"
+    ],
+    "category": "spot",
+    "isHighlight": false,
+    "media": [
+      {
+        "type": "youtube",
+        "url": "jNQXAC9IVRw",
+        "title": "旅程紀錄",
+        "caption": "抵達時間：2026/8/17 上午11:20:04。"
+      }
+    ]
+  },
+  "node-18": {
+    "id": "node-18",
+    "title": "旅程景點 18",
+    "description": "抵達時間：2026/8/17 上午11:51:47。",
+    "tags": [
+      "自動分類"
+    ],
+    "category": "spot",
+    "isHighlight": false,
+    "media": [
+      {
+        "type": "youtube",
+        "url": "jNQXAC9IVRw",
+        "title": "旅程紀錄",
+        "caption": "抵達時間：2026/8/17 上午11:51:47。"
+      }
+    ]
+  },
+  "node-19": {
+    "id": "node-19",
+    "title": "旅程景點 19",
+    "description": "抵達時間：2026/8/17 下午12:34:32。",
+    "tags": [
+      "自動分類"
+    ],
+    "category": "spot",
+    "isHighlight": false,
+    "media": [
+      {
+        "type": "youtube",
+        "url": "jNQXAC9IVRw",
+        "title": "旅程紀錄",
+        "caption": "抵達時間：2026/8/17 下午12:34:32。"
+      }
+    ]
+  },
+  "node-20": {
+    "id": "node-20",
+    "title": "旅程景點 20",
+    "description": "抵達時間：2026/8/17 下午1:54:28。",
+    "tags": [
+      "自動分類"
+    ],
+    "category": "spot",
+    "isHighlight": false,
+    "media": [
+      {
+        "type": "youtube",
+        "url": "jNQXAC9IVRw",
+        "title": "旅程紀錄",
+        "caption": "抵達時間：2026/8/17 下午1:54:28。"
+      }
+    ]
+  },
+  "node-21": {
+    "id": "node-21",
+    "title": "旅程景點 21",
+    "description": "抵達時間：2026/8/17 下午1:54:28。",
+    "tags": [
+      "自動分類"
+    ],
+    "category": "spot",
+    "isHighlight": false,
+    "media": [
+      {
+        "type": "youtube",
+        "url": "jNQXAC9IVRw",
+        "title": "旅程紀錄",
+        "caption": "抵達時間：2026/8/17 下午1:54:28。"
+      }
+    ]
+  },
+  "node-22": {
+    "id": "node-22",
+    "title": "旅程景點 22",
+    "description": "抵達時間：2026/8/17 下午3:19:39。",
+    "tags": [
+      "自動分類"
+    ],
+    "category": "spot",
+    "isHighlight": false,
+    "media": [
+      {
+        "type": "youtube",
+        "url": "jNQXAC9IVRw",
+        "title": "旅程紀錄",
+        "caption": "抵達時間：2026/8/17 下午3:19:39。"
+      }
+    ]
+  },
+  "node-23": {
+    "id": "node-23",
+    "title": "旅程景點 23",
+    "description": "抵達時間：2026/8/17 下午5:23:11。",
+    "tags": [
+      "自動分類"
+    ],
+    "category": "spot",
+    "isHighlight": false,
+    "media": [
+      {
+        "type": "youtube",
+        "url": "jNQXAC9IVRw",
+        "title": "旅程紀錄",
+        "caption": "抵達時間：2026/8/17 下午5:23:11。"
+      }
+    ]
+  },
+  "node-24": {
+    "id": "node-24",
+    "title": "旅程景點 24",
+    "description": "抵達時間：2026/8/18 上午8:21:25。",
+    "tags": [
+      "自動分類"
+    ],
+    "category": "spot",
+    "isHighlight": false,
+    "media": [
+      {
+        "type": "youtube",
+        "url": "jNQXAC9IVRw",
+        "title": "旅程紀錄",
+        "caption": "抵達時間：2026/8/18 上午8:21:25。"
+      }
+    ]
+  },
+  "node-25": {
+    "id": "node-25",
+    "title": "旅程景點 25",
+    "description": "抵達時間：2026/8/18 上午10:51:50。",
+    "tags": [
+      "自動分類"
+    ],
+    "category": "spot",
+    "isHighlight": false,
+    "media": [
+      {
+        "type": "youtube",
+        "url": "jNQXAC9IVRw",
+        "title": "旅程紀錄",
+        "caption": "抵達時間：2026/8/18 上午10:51:50。"
+      }
+    ]
+  },
+  "node-26": {
+    "id": "node-26",
+    "title": "旅程景點 26",
+    "description": "抵達時間：2026/8/18 下午3:00:16。",
+    "tags": [
+      "自動分類"
+    ],
+    "category": "spot",
+    "isHighlight": false,
+    "media": [
+      {
+        "type": "youtube",
+        "url": "jNQXAC9IVRw",
+        "title": "旅程紀錄",
+        "caption": "抵達時間：2026/8/18 下午3:00:16。"
+      }
+    ]
+  },
+  "node-27": {
+    "id": "node-27",
+    "title": "旅程景點 27",
+    "description": "抵達時間：2026/8/18 下午3:31:38。",
+    "tags": [
+      "自動分類"
+    ],
+    "category": "spot",
+    "isHighlight": false,
+    "media": [
+      {
+        "type": "youtube",
+        "url": "jNQXAC9IVRw",
+        "title": "旅程紀錄",
+        "caption": "抵達時間：2026/8/18 下午3:31:38。"
+      }
+    ]
+  },
+  "node-28": {
+    "id": "node-28",
+    "title": "旅程景點 28",
+    "description": "抵達時間：2026/8/18 下午5:06:36。",
+    "tags": [
+      "自動分類"
+    ],
+    "category": "spot",
+    "isHighlight": false,
+    "media": [
+      {
+        "type": "youtube",
+        "url": "jNQXAC9IVRw",
+        "title": "旅程紀錄",
+        "caption": "抵達時間：2026/8/18 下午5:06:36。"
+      }
+    ]
+  },
+  "node-29": {
+    "id": "node-29",
+    "title": "旅程景點 29",
+    "description": "抵達時間：2026/8/18 下午5:06:36。",
+    "tags": [
+      "自動分類"
+    ],
+    "category": "spot",
+    "isHighlight": false,
+    "media": [
+      {
+        "type": "youtube",
+        "url": "jNQXAC9IVRw",
+        "title": "旅程紀錄",
+        "caption": "抵達時間：2026/8/18 下午5:06:36。"
+      }
+    ]
+  },
+  "node-30": {
+    "id": "node-30",
+    "title": "旅程景點 30",
+    "description": "抵達時間：2026/8/18 下午6:48:16。",
+    "tags": [
+      "自動分類"
+    ],
+    "category": "spot",
+    "isHighlight": false,
+    "media": [
+      {
+        "type": "youtube",
+        "url": "jNQXAC9IVRw",
+        "title": "旅程紀錄",
+        "caption": "抵達時間：2026/8/18 下午6:48:16。"
+      }
+    ]
+  },
+  "node-31": {
+    "id": "node-31",
+    "title": "旅程景點 31",
+    "description": "抵達時間：2026/8/19 上午8:45:54。",
+    "tags": [
+      "自動分類"
+    ],
+    "category": "spot",
+    "isHighlight": false,
+    "media": [
+      {
+        "type": "youtube",
+        "url": "jNQXAC9IVRw",
+        "title": "旅程紀錄",
+        "caption": "抵達時間：2026/8/19 上午8:45:54。"
+      }
+    ]
+  },
+  "node-32": {
+    "id": "node-32",
+    "title": "旅程景點 32",
+    "description": "抵達時間：2026/8/19 下午1:45:19。",
+    "tags": [
+      "自動分類"
+    ],
+    "category": "spot",
+    "isHighlight": false,
+    "media": [
+      {
+        "type": "youtube",
+        "url": "jNQXAC9IVRw",
+        "title": "旅程紀錄",
+        "caption": "抵達時間：2026/8/19 下午1:45:19。"
+      }
+    ]
+  },
+  "node-33": {
+    "id": "node-33",
+    "title": "旅程景點 33",
+    "description": "抵達時間：2026/8/19 下午4:03:02。",
+    "tags": [
+      "自動分類"
+    ],
+    "category": "spot",
+    "isHighlight": false,
+    "media": [
+      {
+        "type": "youtube",
+        "url": "jNQXAC9IVRw",
+        "title": "旅程紀錄",
+        "caption": "抵達時間：2026/8/19 下午4:03:02。"
+      }
+    ]
+  },
+  "node-34": {
+    "id": "node-34",
+    "title": "旅程景點 34",
+    "description": "抵達時間：2026/8/19 下午4:13:36。",
+    "tags": [
+      "自動分類"
+    ],
+    "category": "spot",
+    "isHighlight": false,
+    "media": [
+      {
+        "type": "youtube",
+        "url": "jNQXAC9IVRw",
+        "title": "旅程紀錄",
+        "caption": "抵達時間：2026/8/19 下午4:13:36。"
+      }
+    ]
+  },
+  "node-35": {
+    "id": "node-35",
+    "title": "旅程景點 35",
+    "description": "抵達時間：2026/8/21 下午5:42:50。",
+    "tags": [
+      "自動分類"
+    ],
+    "category": "spot",
+    "isHighlight": false,
+    "media": [
+      {
+        "type": "youtube",
+        "url": "jNQXAC9IVRw",
+        "title": "旅程紀錄",
+        "caption": "抵達時間：2026/8/21 下午5:42:50。"
+      }
+    ]
+  }
+}

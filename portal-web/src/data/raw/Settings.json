@@ -1,0 +1,74 @@
+{
+  "createdTime": "2013-08-26T15:59:25.182Z",
+  "modifiedTime": "2025-11-22T11:29:12.316Z",
+  "deviceSettings": [{
+    "deviceTag": 910831123,
+    "reportingEnabled": false,
+    "legalCountryCode": "tw",
+    "devicePrettyName": "iPhone",
+    "platformType": "IOS",
+    "deviceCreationTime": "2025-11-22T11:29:12.316Z",
+    "latestLocationReportingSettingChange": {
+      "reportingEnabledModificationTime": "2025-11-22T11:29:12.316Z"
+    },
+    "iosVersion": "26.6.1",
+    "deviceSpec": {
+      "device": "iPhone18,3"
+    },
+    "deviceActiveness": {
+      "hasSavedTimelineData": true,
+      "observedPlaceVisitsFor30PercentOfTheLast7d": true
+    }
+  }, {
+    "deviceTag": -1596447903,
+    "reportingEnabled": false,
+    "devicePrettyName": "SM-P610",
+    "platformType": "ANDROID",
+    "deviceCreationTime": "2020-11-21T06:10:11.736Z",
+    "latestLocationReportingSettingChange": {
+      "reportingEnabledModificationTime": "2024-12-13T00:54:04.270Z"
+    },
+    "androidOsLevel": 33,
+    "deviceSpec": {
+      "manufacturer": "samsung",
+      "brand": "samsung",
+      "product": "gta4xlwifixx",
+      "device": "gta4xlwifi",
+      "model": "SM-P610",
+      "isLowRam": false
+    },
+    "deviceActiveness": {
+      "hasSavedTimelineData": true
+    }
+  }],
+  "hasReportedLocations": true,
+  "hasSetRetention": false,
+  "storeVisitControl": {
+    "enabled": true,
+    "updateTime": "2022-07-15T16:04:24.696209873Z"
+  },
+  "timelineEditUploadsControl": {
+    "enabled": false,
+    "updateTime": "2024-12-09T07:58:35.557593454Z"
+  },
+  "encryptedBackupsControls": {
+    "-1596447903": {
+      "enabled": false
+    },
+    "910831123": {
+      "enabled": false
+    }
+  },
+  "retentionControl": {
+    "retentionWindowDays": 2147483647
+  },
+  "timelineEnabled": true,
+  "timelineDeletionTime": "2024-12-13T03:51:20.833Z",
+  "latestTimelineSettingChange": {
+    "timelineEnabledModificationTime": "2024-12-09T07:58:30.448Z"
+  },
+  "googleOpinionRewardsControl": {
+    "enabled": false,
+    "updateTime": "2024-08-03T00:13:19.955220113Z"
+  }
+}

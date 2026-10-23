@@ -1,0 +1,74 @@
+{
+  "summary": {
+    "totalShortStopsRemoved": 1,
+    "totalEndpointAnomalies": 1,
+    "totalFlattenedRecords": 4,
+    "cleanCandidateVisitsProduced": 29
+  },
+  "shortStopsRemoved": [
+    {
+      "sourceIndex": 487,
+      "startTime": "2026-08-17T10:25:22.606+09:00",
+      "endTime": "2026-08-17T10:28:15.367+09:00",
+      "startTimestamp": 1786929922606,
+      "endTimestamp": 1786930095367,
+      "durationSec": 173,
+      "durationMinutes": 3,
+      "hierarchyLevel": 0,
+      "placeLocationRaw": "geo:34.365504,132.317041",
+      "coordinate": [
+        132.317041,
+        34.365504
+      ],
+      "placeID": "ChIJix__GN-7WjURo91z4KFVmRY",
+      "semanticType": "Unknown",
+      "probability": 0.593026,
+      "candidateProbability": 0.782935,
+      "reason": "Duration 173s (2.9m) < 180s threshold"
+    }
+  ],
+  "endpointAnomalies": [
+    {
+      "sourceIndex": 524,
+      "startTime": "2026-08-21T17:42:50.095+08:00",
+      "endTime": "2026-08-22T00:25:21.176+08:00",
+      "startTimestamp": 1787305370095,
+      "endTimestamp": 1787329521176,
+      "durationSec": 24151,
+      "durationMinutes": 403,
+      "hierarchyLevel": 0,
+      "placeLocationRaw": "geo:23.189899,120.241360",
+      "coordinate": [
+        120.24136,
+        23.189899
+      ],
+      "placeID": "ChIJ0xPW5Xx-bjQRP_hVK_um_7U",
+      "semanticType": "Unknown",
+      "probability": 0.736905,
+      "candidateProbability": 0.204306,
+      "reason": "Coordinate [120.24136,23.189899] outside Japan bounds (Taiwan/Tainan endpoint anomaly)"
+    }
+  ],
+  "flattenedRecords": [
+    {
+      "flattenedSourceIndex": 465,
+      "primarySourceIndex": 464,
+      "reason": "HIERARCHY_LEVEL_1_NESTED_IN_LEVEL_0"
+    },
+    {
+      "flattenedSourceIndex": 492,
+      "primarySourceIndex": 491,
+      "reason": "HIERARCHY_LEVEL_1_NESTED_IN_LEVEL_0"
+    },
+    {
+      "flattenedSourceIndex": 497,
+      "primarySourceIndex": 496,
+      "reason": "SAME_OR_NEAR_TIMESTAMP_CLASH_0S"
+    },
+    {
+      "flattenedSourceIndex": 511,
+      "primarySourceIndex": 510,
+      "reason": "SAME_OR_NEAR_TIMESTAMP_CLASH_0S"
+    }
+  ]
+}

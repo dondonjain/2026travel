@@ -1,0 +1,45 @@
+{
+  "name": "portal-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "test": "node --require ./src/lib/test-register.cjs --test src/lib/supabase-places.test.cjs src/lib/narrative-dwell.test.cjs src/lib/narrative-playback.test.cjs src/lib/narrative-playback-source.test.cjs scripts/import-mvp-source.test.mjs src/lib/cms-ui-cp1.test.cjs src/lib/cms-schema-cp2.test.cjs src/lib/cms-reconstruction.test.cjs src/lib/cms-editing-preview.test.cjs",
+    "test:importer": "node --test scripts/import-mvp-source.test.mjs",
+    "test:place-identity": "node --require ./src/lib/test-register.cjs --test src/lib/cms-place-identity.test.cjs",
+    "test:poi": "node --require ./src/lib/test-register.cjs --test src/lib/cms/place-resolver.test.cjs src/lib/cms/poi-pipeline.test.cjs src/lib/cms/poi-review.test.cjs src/lib/cms/poi-review-panel.test.cjs src/lib/cms-reconstruction.test.cjs",
+    "qa:db-smoke": "node scripts/qa-db-smoke.mjs",
+    "qa:fixture-verify": "node scripts/qa-fixture-verify.mjs",
+    "qa:public-playback": "node --require ./src/lib/test-register.cjs scripts/qa-public-playback.mjs",
+    "qa:import-fixture": "node scripts/import-mvp.mjs",
+    "qa:secret-scan": "node scripts/qa-secret-scan.mjs",
+    "qa:poi-local": "node scripts/qa-poi-local.mjs",
+    "qa:secret-boundary-test": "node --test scripts/secret-boundary.test.mjs"
+  },
+  "dependencies": {
+    "@mapbox/mapbox-gl-language": "^1.0.1",
+    "@turf/turf": "^7.4.0",
+    "dotenv": "^18.0.4",
+    "lucide-react": "^1.41.0",
+    "mapbox-gl": "^3.30.0",
+    "next": "16.3.4",
+    "pg": "^8.23.0",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "react-map-gl": "^8.1.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/mapbox-gl": "^3.4.1",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.4",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
